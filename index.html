@@ -6,40 +6,95 @@
     <style>
       /* CSS comments look like this.
         6 You can use them to take notes right inline */
+
+
+        * {
+          border: 1px dashed yellow;
+        }
+
+
+
         body {
+          font-size: 16px;
           color: cornflower blue;
           background-color: gray
         }
         p {
           color: DarkSeaGreen;
         }
-        .main-paragraph:hover {
-          background: DarkMagenta
+
+        .first-article {
+          width: 75%;
         }
+
+        .main-paragraph {
+          width: 16rem;
+        }
+
+        .main-paragraph:hover {
+          background: rgba(255, 125, 125, 0.4);
+          font-size: 2rem;
+        }
+
         a[href="./about-me.html"] {
           color: yellow;
         }
 
+        a[href="https://loremipsum.io"] {
+          color: green;
+        }
+
+        a[href="https://github.com/spanishchorizo/Lesson03-CSS"] {
+          color: darkred;
+        }
+
+        img[src="https://p0.pikist.com/photos/329/314/puppies-dogs-dog-puppy-animal-cute-adorable-doggy-search.jpg"] {
+          width: 300px;
+          border-style: 3px rounded;
+        }
+
+        .img {
+          width: 33%;
+          border: 3px dashed solid double;
+        }
+
+
+
     </style>
   </head>
   <body>
+
+
+
+    <!-- commenting -->
+
+
+
     <h1>Website Title Text</h1>
 
-    <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <article class="first-article">
+      <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
 
     <p class="second-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <a href="./about-.html">About Me</a> <br>
+    <a href="./about-me.html">About Me</a> <br>
     <a href="./portfolio.html">About Me</a> <br>
 
     <a href="https://loremipsum.io">Lorem Ipsum</a>
-    <a href="https://github.com/spanishchorizo/Lesson03-CSS">My GitHub</a>
+    <a href="https://github.com/spanishchorizo/Lesson03-CSS">My GitHub</a> <br>
+    <br>
 
-    <di>
+    <img class="image" src="https://p0.pikist.com/photos/329/314/puppies-dogs-dog-puppy-animal-cute-adorable-doggy-search.jpg" alt="Cute puppies" />
+
+    <img class="image" src="https://cdn.pixabay.com/photo/2019/05/28/05/47/puppy-4234435__340.jpg" />
+
+    <div>
       <ul>
         <li>One Item</li>
         <li>Two Item</li>
         <li>Three Item</li>
+      </ul>
 
   </body>
 </html>
